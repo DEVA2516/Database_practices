@@ -1,4 +1,4 @@
--- ---- 16) Get count of subject taken by malar --------------------------
+-- ---- 16) Get malar teacher students --------------------------
 
 select teach.name as teacher,count(st.name) as no_of_students
 from teachers teach
